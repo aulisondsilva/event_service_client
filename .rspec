@@ -1,0 +1,25 @@
+--color
+--require spec_helper
+ require "./lib/event_client/api_client"
+ require "./lib/event_client/configuration"
+ require "./lib/event_client/version"
+ require "./lib/event_client/api/event_api"
+
+require 'event_client'
+body = {
+"project_name": "Ford.com",
+"process_name": "Ford.com Daily Export",
+"status": "started",
+"server_id": "blue03",
+"lan_ip": "10.68.77.62",
+"wan_ip": "166.70.118.93",
+"progress": 0,
+"execution_time": 0,
+ "start_time": 1520920493
+ }
+
+
+
+ api_instance = EventClient::EventApi.new
+
+ c = api_instance.add_event(body)
