@@ -72,8 +72,8 @@ All URIs are relative to *http://166.70.118.105:8986/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*EventClient::EventApi* | [**add_event**](docs/RegisterEventApi.md#add_event) | **POST** /register_event | Register a new event
-*EventClient::EventApi* | [**update_event**](docs/RegisterEventApi.md#update_event) | **POST** /update_event | Register a new event
+*EventClient::EventApi* | [**add_event**](docs/EventApi.md#add_event) | **POST** /register_event | Register a new event
+*EventClient::EventApi* | [**update_event**](docs/EventApi.md#update_event) | **POST** /update_event | Register a new event
 
 
 ## Documentation for Models

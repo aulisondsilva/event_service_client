@@ -1,11 +1,11 @@
-# SwaggerClient::RegisterEventApi
+# EventClient::RegisterEventApi
 
 All URIs are relative to *http://166.70.118.105:8986/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**add_event**](RegisterEventApi.md#add_event) | **POST** /register_event | Register a new event
-[**update_event**](RegisterEventApi.md#update_event) | **POST** /update_event | Register a new event
+[**add_event**](EventApi.md#add_event) | **POST** /register_event | Register a new event
+[**update_event**](EventApi.md#update_event) | **POST** /update_event | Register a new event
 
 
 # **add_event**
@@ -18,18 +18,18 @@ Register a new event
 ### Example
 ```ruby
 # load the gem
-require 'swagger_client'
+require 'event_client'
 
-api_instance = SwaggerClient::RegisterEventApi.new
+api_instance = EventClient::EventApi.new
 
-body = SwaggerClient::Event.new # Event | Event object that needs to be added to the Index
+body = {} # Event | Event object that needs to be added to the Index
 
 
 begin
   #Register a new event
   api_instance.add_event(body)
-rescue SwaggerClient::ApiError => e
-  puts "Exception when calling RegisterEventApi->add_event: #{e}"
+rescue EventClient::ApiError => e
+  puts "Exception when calling EventApi->add_event: #{e}"
 end
 ```
 
@@ -64,18 +64,18 @@ Register a new event
 ### Example
 ```ruby
 # load the gem
-require 'swagger_client'
+require 'event_client'
 
-api_instance = SwaggerClient::RegisterEventApi.new
+api_instance = EventClient::EventApi.new
 
-body = SwaggerClient::Event.new # Event | Event object that needs to be added to the Index
+body = {} # Event | Event object that needs to be added to the Index
 
 
 begin
   #Register a new event
   api_instance.update_event(body)
-rescue SwaggerClient::ApiError => e
-  puts "Exception when calling RegisterEventApi->update_event: #{e}"
+rescue EventClient::ApiError => e
+  puts "Exception when calling EventApi->update_event: #{e}"
 end
 ```
 

@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**event_id** | **Integer** |  | [optional] 
+**event_id** | **Integer** | required on update | [optional] 
 **project_name** | **String** |  | [optional] 
 **process_name** | **String** |  | [optional] 
 **status** | **String** | Order Status | [optional] 
