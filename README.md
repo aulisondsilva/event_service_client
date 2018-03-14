@@ -25,25 +25,13 @@ gem install ./event_client-1.0.0.gem
 ```
 (for development, run `gem install --dev ./event_client-1.0.0.gem` to install the development dependencies)
 
-or publish the gem to a gem hosting service, e.g. [RubyGems](https://rubygems.org/).
-
-Finally add this to the Gemfile:
-
-    gem 'event_client', '~> 1.0.0'
-
 ### Install from Git
 
-If the Ruby gem is hosted at a git repository: https://github.com/dsilvaaulison/event_service_client.git, then add the following in the Gemfile:
+If the Ruby gem is hosted at a git repository: https://github.com/zerebral/event_service_client.git, then add the following in the Gemfile:
 
-    gem 'event_client', :git => 'https://github.com/dsilvaaulison/event_service_client.git'
+    gem 'event_client', :git => 'https://github.com/zerebral/event_service_client.git'
 
-### Include the Ruby code directly
 
-Include the Ruby code directly using `-I` as follows:
-
-```shell
-ruby -Ilib script.rb
-```
 
 ## Getting Started
 
