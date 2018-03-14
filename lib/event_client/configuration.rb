@@ -129,7 +129,7 @@ module EventClient
 
     def initialize
       @scheme = 'http'
-      @host = '166.70.118.105:8986'
+      @host = 'eventservice.marketcheck.com:8986'
       @base_path = '/v1'
       @api_key = {}
       @api_key_prefix = {}
